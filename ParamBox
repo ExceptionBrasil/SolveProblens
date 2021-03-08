@@ -1,0 +1,59 @@
+Documentação do ParamBox 
+ 
+ Array contendo os parametros                          
+                  [1] Tipo do parametro -                               
+                   1 - MsGet                                            
+                     [2] : Descricao                                    
+                     [3] : String contendo o inicializador do campo     
+                     [4] : String contendo a Picture do campo           
+                     [5] : String contendo a validacao                  
+                     [6] : Consulta F3                                  
+                     [7] : String contendo a validacao When             
+                     [8] : Tamanho do MsGet                             
+                     [9] : Flag .T./.F. Parametro Obrigatorio ?         
+                   2 - Combo                                            
+                     [2] : Descricao                                    
+                     [3] : Numerico contendo a opcao inicial do combo   
+                     [4] : Array contendo as opcoes do Combo            
+                     [5] : Tamanho do Combo                             
+                     [6] : Validacao                                    
+                     [7] : Flag .T./.F. Parametro Obrigatorio ?         
+                   3 - Radio                                            
+                     [2] : Descricao                                    
+                     [3] : Numerico contendo a opcao inicial do Radio   
+                     [4] : Array contendo as opcoes do Radio            
+                     [5] : Tamanho do Radio                             
+                     [6] : Validacao                                    
+                     [7] : Flag .T./.F. Parametro Obrigatorio ?         
+                   4 - CheckBox ( Com Say )                             
+                     [2] : Descricao                                    
+                     [3] : Indicador Logico contendo o inicial do Check 
+                     [4] : Texto do CheckBox                            
+                     [5] : Tamanho do Radio                             
+                     [6] : Validacao                                    
+                     [7] : Flag .T./.F. Parametro Obrigatorio ?         
+                   5 - CheckBox ( linha inteira )                       
+                     [2] : Descricao                                    
+                     [3] : Indicador Logico contendo o inicial do Check 
+                     [4] : Tamanho do Radio                             
+                     [5] : Validacao                                    
+                     [6] : Flag .T./.F. Parametro Obrigatorio ?         
+                   6 - File                                             
+                     [2] : Descricao                                    
+                     [3] : String contendo o inicializador do campo     
+                     [4] : String contendo a Picture do campo           
+                     [5] : String contendo a validacao                  
+                     [6] : String contendo a validacao When             
+                     [7] : Tamanho do MsGet                             
+                     [8] : Flag .T./.F. Parametro Obrigatorio ?         
+                     [9] : Texto contendo os tipos de arquivo           
+                           Ex.: "Arquivos .CSV |*.CSV"                  
+                   7 - Montagem de expreao de filtro                  
+                     [2] : Descricao                                    
+                     [3] : Alias da tabela                              
+                     [4] : Filtro inicial                               
+          ExpC2  : Titulo da Janela                                     
+          ExpA3  : Array paado por referencia que contem o retorno    
+                   dos parametros.                                      
+
+
